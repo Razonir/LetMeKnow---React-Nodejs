@@ -1,0 +1,19 @@
+development:
+  server: 
+    port: 8080
+    bypassCORS: true
+    useHelmet: true
+  db:
+    uri: 'mongodb://127.0.0.1/letmeknow_db'
+    poolSize: 5
+  auth:
+    loginExpirationTime: 3 # hours
+    jwtPrivateKey: 'jwt-dev-private.key'
+    jwtPublicKey: 'jwt-dev-public.key'
+  crawlers:
+    interval: 60 # seconds
+  log:
+    level: debug
+    file: './logs/dev-logs.log' #Where log file will be saved. Date will be concatenated before the name.
+    maxSize: 10000000 #(10MB) Maximum file log size, if one file reaches it, a new file is created.
+    maxFiles: 30 # Max Files that can be created per day reaching the maxSize.

@@ -1,0 +1,14 @@
+a {
+    cursor: pointer;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.app-container {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.xbutton{
+    background: none;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    border: none;
+    position: absolute;
+    margin-left: 15px;
+    padding: 0px 10px;
+}
+
+.xbutton:hover{
+    color: red;
+
+}
+
+.xbutton:hover ,.xbutton:focus{
+    outline: none;
+
+}
