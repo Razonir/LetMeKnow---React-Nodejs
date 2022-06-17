@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 import logger from '../logger.js';
 
-const user = 'letmeknow.webworkshop@gmail.com'
+const user = 'razonir@gmail.com'
 
 let transporter = nodemailer.createTransport({
     service:'gmail',
